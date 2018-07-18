@@ -1,0 +1,26 @@
+.button-custom {
+	display: flex;
+	align-items:center;
+	background: #fff;
+	color: #282828;
+	padding: 8px 16px;
+	box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.13);
+	border-radius: 16px;
+	transition: .3s;
+	text-decoration: none!important;
+	font-weight: 600;
+	&:hover{
+		box-shadow: 0 8px 10px 0px rgba(0, 0, 0, 0.13);
+	}
+	&-icon{
+		background: $primary;
+		color: #fff;
+		padding: 4px;
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}

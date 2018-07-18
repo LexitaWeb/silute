@@ -1,0 +1,118 @@
+.clndr {
+    &-controls{
+        display: flex;
+        justify-content: space-between;
+        
+        .month{
+            text-transform: uppercase;
+            font-weight: 700;
+            cursor: default;
+        }
+        &-button{
+            &:hover{
+                color: $secondary;
+                cursor: pointer;
+            }
+        }
+    }
+    &-table{
+        // width: 100%;
+        text-align: center;
+        .header-days{
+            font-weight: 700;
+            color:$secondary;
+        }
+        .day{
+            cursor: pointer;
+            position: relative;
+            &-tooltip{
+                position: absolute;
+                top: 100%;
+                left: -100%;
+                width: 230px;
+                background: rgba(0,0,0,0.8);
+                padding: 10px;
+                display: none;
+                z-index: 9001;
+                border-radius: 8px;
+                &-event {
+                    a {
+                        color: #e1e1e1;
+                    }
+                    &:hover a{
+                        color:$secondary;
+                    }
+                    & + .day-tooltip-event{
+                        border-top: 1px solid rgba(255,255,255,.4);
+                    }
+                }
+                &:before {
+                    content: '';
+                    position:  absolute;
+                    left: 56px;
+                    bottom: 100%;
+                    /* background:  red; */
+                    border: 10px solid transparent;
+                    border-bottom-color: rgba(0,0,0,.8);
+                }
+            }
+            &:hover{
+                .day-tooltip{
+                    display: block;
+                }
+            }
+            &.today{
+                .day-contents{
+                    background: rgb(255, 248, 248);
+                }
+            }
+            &-contents {
+                height: 45px;
+                width: 45px;
+                font-weight: 600;
+                @media (max-width: 1199.98px) {
+                    height: 35px;
+                    width: 35px;
+                }
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                &:hover{
+                        background: rgba(230, 77, 78, 0.04);
+                }
+            }
+            &.event{
+                color:$secondary;
+                font-weight: 700;
+                .day-contents{
+                    border:1px solid $secondary;
+                }
+                &.active .day-contents{
+                    background: $secondary;
+                    color:#fff;
+                }
+            }
+
+            &.adjacent-month {
+                color:$text-muted;
+                .day-contents{
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+    &-next-button, &-previous-button {
+        padding: 15px;
+    }
+}
+
+.event-list-item{
+    border-top: 1px solid rgba(0, 0, 0, .12);
+    a{
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}

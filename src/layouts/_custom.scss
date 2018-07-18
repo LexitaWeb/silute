@@ -1,0 +1,17 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	background: linear-gradient(30deg, #fff,#f9f9f9);
+}
+main {
+	padding: 0 16px;
+}
+img{
+	width: 100%;
+}
+.img-centered {
+	background-position: center;
+	background-size: cover;
+}
+#content{
+	min-height: 60vh;
+}
