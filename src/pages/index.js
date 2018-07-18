@@ -34,7 +34,7 @@ const IndexPage = () => (
           title="Susirinkimas"
           date="2018-07-18"
           text="2018 metų liepos 18 d. (trečiadienį), 16 val. Saugų seniūnijos salėje kviečiamas susirinkimas dėl bendruomeninės veiklos rėmimo lėšų paskirstymo..."
-          href="javascript:;"
+          href="/naujiena"
           />
         </div>
         <div className="col-lg-4">
@@ -42,7 +42,7 @@ const IndexPage = () => (
           title="Bendruomenių ir nevyriausybinių organizacijų dėmesiui "
           date="2018-07-08"
             text="Kviečiame teikti paraiškas pagal Nevyriausybinių organizacijų ir bendruomeninės veiklos stiprinimo 2017–2019 metų veiksmų plano..."
-          href="javascript:;"
+          href="/naujiena"
           />
         </div>
         <div className="col-lg-4">
@@ -50,7 +50,7 @@ const IndexPage = () => (
           title="Susirinkimas"
           date="2018-07-18"
           text="2018 metų liepos 18 d. (trečiadienį), 16 val. Saugų seniūnijos salėje kviečiamas susirinkimas dėl bendruomeninės veiklos rėmimo lėšų paskirstymo..."
-          href="javascript:;"
+          href="/naujiena"
           />
         </div>
       </div>
