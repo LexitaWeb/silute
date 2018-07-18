@@ -20,7 +20,7 @@ const Header = ({ siteTitle }) => (
       <div className="row">
         <div className="col-lg-4">
           <img 
-            src="/static/img/silutes.png" 
+            src="http://dev.lexitacrm.lt/static/images/silute/silutes.png" 
             alt="Silute"
            
             />
