@@ -29,7 +29,7 @@ const IndexPage = () => (
       </div>
       <h1>Aktualijos</h1>
       <div className="row my-lg-5">
-        <div className="col-lg-4">
+        <div className="col-lg-4 mb-3">
           <Card img="http://www.pamarys.lt/publ/MiestoSvente/Svente2016/iwebalbumfiles/c9b66ee238ed4f5394bcf25ef15633be.jpg"
           title="Susirinkimas"
           date="2018-07-18"
@@ -37,7 +37,7 @@ const IndexPage = () => (
           href="/naujiena"
           />
         </div>
-        <div className="col-lg-4">
+        <div className="col-lg-4 mb-3">
           <Card img="http://www.pamarys.lt/publ/MiestoSvente/Svente2016/iwebalbumfiles/c9b66ee238ed4f5394bcf25ef15633be.jpg"
           title="Bendruomenių ir nevyriausybinių organizacijų dėmesiui "
           date="2018-07-08"
@@ -45,7 +45,7 @@ const IndexPage = () => (
           href="/naujiena"
           />
         </div>
-        <div className="col-lg-4">
+        <div className="col-lg-4 mb-3">
           <Card img="http://www.pamarys.lt/publ/MiestoSvente/Svente2016/iwebalbumfiles/c9b66ee238ed4f5394bcf25ef15633be.jpg"
           title="Susirinkimas"
           date="2018-07-18"
