@@ -19,11 +19,13 @@ const Header = ({ siteTitle }) => (
     >
       <div className="row">
         <div className="col-lg-4">
+          <a href="/" className="d-block">
           <img 
             src="http://dev.lexitacrm.lt/static/images/silute/silutes.png" 
             alt="Silute"
            
             />
+          </a>
         </div>
         <div className="col text-right">
           <div className="mb-2">
