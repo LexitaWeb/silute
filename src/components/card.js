@@ -11,7 +11,7 @@ const Card = ({img, title, text, href, date}) => (
  	  <div className="card-body clearfix d-flex flex-column">
  	  	<h4 className="card-title">{title}</h4>
 		<p className="card-text">{text}</p>
-		<div className="row align-items-end mt-auto">
+		<div className="row align-items-end mt-auto no-gutters">
 			<div className="col">
 				<h5 className="text-muted d-flex align-items-center">
 					<FontAwesomeIcon icon="calendar-alt" />
